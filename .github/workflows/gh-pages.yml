@@ -24,7 +24,7 @@ jobs:
       - name: Generate publication data
         run: |
           # stop the build if there are Python syntax errors or undefined names
-          python autogen_articles.py
+          python autogen_articles.py ${{ github.workspace }}
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
