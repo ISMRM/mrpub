@@ -1,4 +1,5 @@
-baseURL = "https://agahkarakuzu.github.io/"
+baseURL = "https://agahkarakuzu.github.io/mrpub/"
+canonifyurls = true
 languageCode = "en-us"
 title = "MRpub"
 theme = "hugo-now-ui"
