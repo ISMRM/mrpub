@@ -1,4 +1,4 @@
-baseURL = "https://agahkarakuzu.github.io/"
+baseURL = "https://agahkarakuzu.github.io/mrhub"
 languageCode = "en-us"
 title = "MRpub"
 theme = "hugo-now-ui"
