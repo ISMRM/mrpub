@@ -1,6 +1,6 @@
-baseURL = "https://www.neurolibre.com/"
+baseURL = "https://agahkarakuzu.github.io/"
 languageCode = "en-us"
-title = "NeuroLibre"
+title = "MRpub"
 theme = "hugo-now-ui"
 
 
@@ -34,12 +34,12 @@ publishDir = "public"
 [[menu.footer]]
     identifier = "twitter"
     pre = "<i class='fa fa-twitter'></i>"
-    url = "https://twitter.com/neurolibre"
+    url = "https://twitter.com/mrm_highlights"
     weight = 1
 [[menu.footer]]
     identifier = "github"
     pre = "<i class='fa fa-github'></i>"
-    url = "https://github.com/neurolibre"
+    url = "https://github.com/ismrm"
     weight = 2
 [[menu.footer]]
     identifier = "copyright"
