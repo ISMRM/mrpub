@@ -17,8 +17,8 @@ def get_list(path):
             out.append(file)
     return out
 
-yaml_user = get_list('data/research_edit')
-yaml_exists = get_list('data/research_autogen')
+yaml_user = get_list('${{ github.workspace }}/data/research_edit')
+yaml_exists = get_list('${{ github.workspace }}/data/research_autogen')
 to_proc = list(set(yaml_user) - set(yaml_exists))
 
 if not(to_proc):
@@ -26,7 +26,7 @@ if not(to_proc):
 
 for cur_yml in to_proc:
     print('MRpub >>>>> Creating website data for: ' + cur_yml)
-    pub = get_yml('data/research_edit/' + cur_yml)
+    pub = get_yml('${{ github.workspace }}/data/research_edit/' + cur_yml)
     response = requests.get('https://api.semanticscholar.org/v1/paper/' + pub['doi'])
     if response.status_code == 200:
         response = response.json()
