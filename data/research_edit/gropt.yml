@@ -1,0 +1,8 @@
+doi: 10.1002/mrm.28384
+date: "2020-03-26"
+labels:
+- Gradient
+- Optimization
+image: https://onlinelibrary.wiley.com/cms/asset/71190c80-5a97-47aa-a4fe-bd5f29621b39/mrm28384-fig-0007-m.png
+book_html_url: https://notebook-factory.github.io/gropt_book/intro
+book_github_url: https://github.com/cmr-group/gropt

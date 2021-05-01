@@ -1,7 +1,7 @@
 baseURL = "https://agahkarakuzu.github.io/mrpub/"
 canonifyurls = true
 languageCode = "en-us"
-title = "MRpub"
+title = "MR-Pub"
 theme = "hugo-now-ui"
 
 
@@ -24,12 +24,6 @@ publishDir = "public"
     name = "About"
     url = "/about/"
     pre = "<i class='now-ui-icons travel_info'></i>"
-    weight = 2
-
-[[menu.main]]
-    name = "Tags"
-    pre = "<i class='now-ui-icons shopping_tag-content'></i>"
-    url = "/tags/"
     weight = 2
 
 [[menu.footer]]

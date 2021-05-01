@@ -30,10 +30,16 @@ if not(to_proc):
 for cur_yml in to_proc:
     print('MRpub >>>>> Creating website data for: ' + cur_yml)
     pub = get_yml(gh_dr + '/data/research_edit/' + cur_yml)
-    response = requests.get('https://api.semanticscholar.org/v1/paper/' + pub['doi'])
-    if response.status_code == 200:
+    response = requests.get('https://api.semanticscholar.org/v1/paper/' + pub['doi']) # Abstract 
+    response2 = requests.get('http://api.crossref.org/works/' + pub['doi']) # Affiliations 
+    if response.status_code == 200 and response2.status_code == 200:
         response = response.json()
-        pub['authors'] = response['authors']
+        response2 = response2.json()
+        response2 = response2['message']
+        pub['authors'] = response2['author']
+        for ii in range(len(pub['authors'])):
+            pub['authors'][ii]['affiliation'] = pub['authors'][ii]['affiliation'][0]['name']
+        pub['article_url'] = response2['link'][0]['URL']
         pub['title'] = response['title']
         pub['abstract'] = response['abstract']
         with open('data/research_autogen/' + cur_yml, 'w') as outfile:

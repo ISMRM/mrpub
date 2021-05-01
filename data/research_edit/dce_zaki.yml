@@ -1,0 +1,9 @@
+doi: 10.1002/mrm.27913
+date: "2020-03-26"
+labels:
+- DCE
+- Cancer 
+- Perfusion
+image: https://gitlab.com/notZaki/rrift/-/raw/master/imgs/gbmCurves.png
+book_html_url: https://nbviewer.jupyter.org/github/Notebook-Factory/RRFIT_notebooks/blob/main/Initial%20notebook.ipynb
+book_github_url: https://github.com/MPUmri/RRIFT

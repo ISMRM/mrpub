@@ -1,0 +1,29 @@
+abstract: "Quantitative analysis of dynamic contrast\u2010enhanced MRI (DCE\u2010\
+  MRI) requires an arterial input function (AIF) which is difficult to measure. We\
+  \ propose the reference region and input function tail (RRIFT) approach which uses\
+  \ a reference tissue and the washout portion of the AIF."
+article_url: https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fmrm.27913
+authors:
+- ORCID: http://orcid.org/0000-0001-5648-0590
+  affiliation: Medical Physics Unit McGill University Montreal Canada
+  authenticated-orcid: false
+  family: Ahmed
+  given: Zaki
+  sequence: first
+- ORCID: http://orcid.org/0000-0002-0546-1733
+  affiliation: Medical Physics Unit McGill University Montreal Canada
+  authenticated-orcid: false
+  family: Levesque
+  given: Ives R.
+  sequence: additional
+book_github_url: https://github.com/MPUmri/RRIFT
+book_html_url: https://nbviewer.jupyter.org/github/Notebook-Factory/RRFIT_notebooks/blob/main/Initial%20notebook.ipynb
+date: '2020-03-26'
+doi: 10.1002/mrm.27913
+image: https://gitlab.com/notZaki/rrift/-/raw/master/imgs/gbmCurves.png
+labels:
+- DCE
+- Cancer
+- Perfusion
+title: "Pharmacokinetic modeling of dynamic contrast\u2010enhanced MRI using a reference\
+  \ region and input function tail"

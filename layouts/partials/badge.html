@@ -1,7 +1,7 @@
 {{if .link}}
 <a href="{{.link}}" target="{{.target}}" {{if .class}} class="{{.class}}" {{end}} style="text-decoration-line: none;">
 {{end}}
-<img alt="{{.alt}}" style="display: inline-block;" src="https://img.shields.io/badge/{{if .label}}{{.label}}{{end}}{{if .message}}-{{.message}}{{end}}{{if .color}}-{{.color}}{{end}}.svg?logo={{.logo}}&logoColor={{.logoColor}}&logoWidth={{.logoWidth}}&style={{.style}}">
+<img alt="{{.alt}}" style="display: inline-block;height: 25px;" src="https://img.shields.io/badge/{{if .label}}{{.label}}{{end}}{{if .message}}-{{.message}}{{end}}{{if .color}}-{{.color}}{{end}}.svg?logo={{.logo}}&logoColor={{.logoColor}}&logoWidth={{.logoWidth}}&style={{.style}}">
 {{if .link}}
 </a>
 {{end}}

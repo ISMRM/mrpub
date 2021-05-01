@@ -1,36 +1,37 @@
 <hr>
 <div class="blog-card alt">
     <div class="meta">
-      <div class="photo" style="background-image: url(/img/nlbooks/{{.value.image}})"></div>
+      <div class="photo" style="background-image: url({{.value.image}})"></div>
       <ul class="details">
         <li class="author">
         {{ range $ky, $lbl := .value.authors}}
-        <a href="{{$lbl.website}}" data-toggle="tooltip" title={{$lbl.affiliation}}>{{ $lbl.name }}</a>
+        {{ if $lbl.ORCID }}
+        <a href="{{$lbl.ORCID}}" data-toggle="tooltip" target="_blank" title={{$lbl.affiliation}}>{{ $lbl.given }} {{ $lbl.family }}</a>
+        {{ else }}
+        <span data-toggle="tooltip" title={{$lbl.affiliation}}>{{ $lbl.given }} {{ $lbl.family }}</span>
+        {{ end }}
         {{ end }}
         </li>
         <li class="date">{{ .value.date}}</li>
         <li class="tags">
           <ul>
             {{ range $ky, $lbl := .value.labels}}
-            <li><a href="/tags/{{ $lbl | urlize}}" target="_blank">{{$lbl}}</a></li>
+            <li>{{$lbl}}</li>
             {{ end }}
           </ul>
         </li>
       </ul>
     </div>
     <div class="description">
-      <h1>{{ .value.title }}</h1>
-      <p> {{ .value.summary }}</p>
-        <p>
-        {{ $myUrl := (index .value).url}}
-        {{ if $.value.ext }}
-          {{ partial "badge_nl" (dict "message" "Book" "link" $myUrl "target" "_blank" "logoWidth" "14" "color" "e91b21")}} {{ partial "badge" (dict "label" "GitHub" "message" "Code" "link" $.value.ext "target" "_blank" "logo" "github" "logoWidth" "14" "color" "1f2428")}}
-        {{else}}
-          {{ $u:= urls.Parse $myUrl }}
-          {{ $baseGH := "https://github.com/neurolibre"}}
-          {{ $urlGH := print $baseGH $u.Path}}
-          {{ partial "badge_nl" (dict "message" "Book" "link" $myUrl "target" "_blank" "logoWidth" "14" "color" "e91b21")}} {{ partial "badge" (dict "label" "GitHub" "message" "Code" "link" $urlGH "target" "_blank" "logo" "github" "logoWidth" "14" "color" "1f2428")}}
-        {{end}} 
-        </p>
+      <h2>{{ .value.title }}</h2>
+      <p> </p>
+        {{ $myAbs := (index .value).abstract}}
+        {{ $myUrl := (index .value).book_html_url}}
+        {{ $urlGH := (index .value).book_github_url}}
+        {{ $doi := (index .value).doi}}
+        {{ $d1 := replace $doi "." "" }}
+        {{ $d2 := replace $d1 "/" "" }}
+        <p>{{ partial "abstract" (dict "value" $myAbs "doi" $d2)}}</p>
+        <p>{{ partial "badge_nl" (dict "message" "Jupyter%20Book" "link" $myUrl "target" "_blank" "logoWidth" "25" "color" "1e3059")}} {{ partial "badge" (dict "label" "GitHub" "message" "Code" "link" $urlGH "target" "_blank" "logo" "github" "logoWidth" "25" "color" "1f2428")}} {{ partial "badge" (dict "label" "MRM" "message" $doi "link" $urlGH "target" "_blank" "logo" "PubMed" "logoWidth" "25" "color" "1e3059")}}</p>
     </div>
   </div>

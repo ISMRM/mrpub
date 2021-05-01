@@ -1,5 +1,5 @@
   $color_white: #fff;
-  $color_prime: #e91b21;
+  $color_prime: #1e3059;
   $color_grey: #e2e2e2;
   $color_grey_dark: #a2a2a2;
   
@@ -8,12 +8,12 @@
     border-radius: $border-radius-small;
     display: flex;
     margin: 1rem auto;
-    box-shadow: 0 3px 7px -1px rgba(#000, .0);
+    box-shadow: 0 3px 7px -1px rgba(rgb(22, 64, 161), .5);
     margin-bottom: 1.6%;
     background: $color_white;
     line-height: 1.4;
     font-family: sans-serif;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
     z-index: 0;
     a {
@@ -53,7 +53,6 @@
       padding: 0;
       list-style: none;
     }
-  
     .details {
       position: absolute;
       line-height: 2;
@@ -62,8 +61,7 @@
       left: -100%;
       margin: auto;
       transition: left .2s;
-      background: rgba(rgb(158, 1, 1), .8);
-      background-image: url("/img/neurolibre_logo_outline.svg");
+      background: rgba(rgb(30, 48, 89), .8);
       background-repeat: no-repeat;
       background-size: 50px 50px;
       background-position: bottom right;
@@ -72,7 +70,7 @@
       width: 100%;
       font-size: 1rem;
       a {
-        border-bottom: 1px dotted #fff
+        border-bottom: 1px solid #fff
       }
       a:hover {
         background-color: rgba(255, 255, 255, 0.199);
@@ -84,6 +82,12 @@
       ul li {
         display: inline-block;
       }
+      ul li::after {
+        content: ", ";
+      }
+      ul li:last-child::after {
+        content: "";
+    }
       .author:before {
         font-family: FontAwesome;
         margin-right: 10px;
@@ -127,12 +131,11 @@
         color: #000;
       }
       h2 {
-        font-size: 1rem;
-        font-weight: 300;
-        text-transform: uppercase;
-        color: $color_grey_dark;
+        font-size: 1.3rem;
+        font-weight: 400;
         margin-top: 5px;
         text-align: left;
+        color:#1e3059;
       }
       .read-more {
         text-align: right;

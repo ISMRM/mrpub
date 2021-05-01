@@ -1,0 +1,30 @@
+abstract: "To introduce and demonstrate a software library for time\u2010optimal gradient\
+  \ waveform optimization with a wide range of applications. The software enables\
+  \ direct on\u2010the\u2010fly gradient waveform design on the scanner hardware for\
+  \ multiple vendors."
+article_url: https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fmrm.28384
+authors:
+- ORCID: http://orcid.org/0000-0002-6533-1113
+  affiliation: Department of Radiology Stanford University Stanford CA USA
+  authenticated-orcid: false
+  family: Loecher
+  given: Michael
+  sequence: first
+- affiliation: Department of Radiology Stanford University Stanford CA USA
+  family: Middione
+  given: Matthew J.
+  sequence: additional
+- affiliation: Department of Radiology Stanford University Stanford CA USA
+  family: Ennis
+  given: Daniel B.
+  sequence: additional
+book_github_url: https://github.com/cmr-group/gropt
+book_html_url: https://notebook-factory.github.io/gropt_book/intro
+date: '2020-03-26'
+doi: 10.1002/mrm.28384
+image: https://onlinelibrary.wiley.com/cms/asset/71190c80-5a97-47aa-a4fe-bd5f29621b39/mrm28384-fig-0007-m.png
+labels:
+- Gradient
+- Optimization
+title: "A gradient optimization toolbox for general purpose time\u2010optimal MRI\
+  \ gradient waveform design"
