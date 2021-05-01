@@ -20,11 +20,6 @@ publishDir = "public"
     pre = "<i class='now-ui-icons arrows-1_cloud-upload-94'></i>"
     weight = 1
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    pre = "<i class='now-ui-icons travel_info'></i>"
-    weight = 2
 
 [[menu.footer]]
     identifier = "twitter"

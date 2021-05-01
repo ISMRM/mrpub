@@ -1,0 +1,19 @@
+id: edu_2
+title: "Image processing with Spinal Cord Toolbox (SCT)"
+abstract: "This notebook presents an example analysis pipeline using the Spinal Cord Toolbox (SCT), a suite of tools specialized for analysis of spinal cord MRI images of the spinal. Topics covered include: segmentation, masking, registration, warping, and quantitative metric computation. This tutorial was generated in a Jupyter Notebook and coded in Python." 
+authors:
+- family: Boudreau
+  given: Mathieu 
+  website: https://github.com/mathieuboudreau
+  affiliation: Montreal Heart Institute, University of Montreal, Montreal, Canada
+- family: Cohen-Adad
+  given: Julien
+  website: https://github.com/jcohenadad
+  affiliation: NeuroPoly Lab, Ecole Polytechnique de Montreal, Montreal, Canada
+date: "2020-03-26"
+labels:
+- Spinal cord
+- Analysis pipeline
+image: img/edu/sct_featured.png
+book_html_url: https://mathieuboudreau.github.io/pipelines-jupyter-book/01/sct_mtsat
+book_github_url: https://github.com/mathieuboudreau/pipelines-jupyter-book

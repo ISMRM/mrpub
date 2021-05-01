@@ -96,3 +96,20 @@
         padding-right: 0;
     }
 }
+
+.card-header{
+    background: transparent;
+    padding: 0px;
+}
+
+.card-header::after{
+    background-image: url('https://www.ismrm.org/wp-content/uploads/ISMRM-2020-Main-Logo-small.png');
+}
+
+.nav-tabs>.nav-item>.nav-link.active {
+    border: 1px solid #1e3059;
+    background-color: #1e3059;
+    color: white;
+    font-weight: 600;
+    border-radius: 30px;
+}
