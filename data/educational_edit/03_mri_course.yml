@@ -2,10 +2,10 @@ id: edu_3
 title: "MRI Online Course"
 abstract: "This online course is divided in 4 chapters (for more info see 📕 Course chapters ) that demonstrate different MRI techniques and display the results in Jupyer notebooks. The notebooks are written in Julia (1.4.1) and Python (3.7)."
 authors:
-- family: Zelenkovski
-  given: kiril 
-  website: https://github.com/zelenkastiot
-  affiliation: Notebook Factory
+- family: Chen
+  given: Nan-kuei  
+  website: https://bme.engineering.arizona.edu/faculty-staff/faculty/nan-kuei-chen
+  affiliation: The University of Arizona College of Engineering, Tucson, AZ, USA
 date: "2020-03-26"
 labels:
 - Reconstruction
