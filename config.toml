@@ -1,4 +1,4 @@
-baseURL = "https://agahkarakuzu.github.io/mrpub/"
+baseURL = "https://ismrm.github.io/mrpub/"
 canonifyurls = true
 languageCode = "en-us"
 title = "MR-Pub"
