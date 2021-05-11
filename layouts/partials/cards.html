@@ -32,9 +32,9 @@
     </div>
     <div class="description">
       {{if $doi}}
-      <a href={{$myUrl}}><h2 style="color:#1e3059;">{{ .value.title }}</h2></a>
+      <a href={{$myUrl}} target="_blank"><h2 style="color:#1e3059;">{{ .value.title }}</h2></a>
       {{else}}
-      <a href={{$myUrl}}><h2 style="color:#227ac2;">{{ .value.title }}</h2></a>
+      <a href={{$myUrl}} target="_blank"><h2 style="color:#227ac2;">{{ .value.title }}</h2></a>
       {{end}}
       <p > </p>
         {{if $doi}}
