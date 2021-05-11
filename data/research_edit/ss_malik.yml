@@ -1,0 +1,8 @@
+doi: 10.1002/mrm.27984
+date: "2020-03-26"
+labels:
+- ihMT
+- Multiband RF
+image: https://github.com/mriphysics/ihMT_steadystate/raw/master/figs/mb_fig.jpg
+book_html_url: https://nbviewer.jupyter.org/github/Notebook-Factory/ihMT_notebooks/blob/main/domasno_notebook.ipynb
+book_github_url: https://github.com/mriphysics/ihMT_steadystate
