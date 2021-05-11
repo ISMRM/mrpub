@@ -1,4 +1,10 @@
 <hr>
+{{ $myUrl := (index .value).book_html_url}}
+{{ $myAbs := (index .value).abstract}}        
+{{ $urlGH := (index .value).book_github_url}}
+{{ $urlPaper := (index .value).article_url}}
+{{ $doi := (index .value).doi}}
+
 <div class="blog-card alt">
     <div class="meta">
       <div class="photo" style="background-image: url({{.value.image}})"></div>
@@ -25,21 +31,20 @@
       </ul>
     </div>
     <div class="description">
-      <h2>{{ .value.title }}</h2>
-      <p> </p>
-        {{ $myAbs := (index .value).abstract}}
-        {{ $myUrl := (index .value).book_html_url}}
-        {{ $urlGH := (index .value).book_github_url}}
-        {{ $urlPaper := (index .value).article_url}}
-        {{ $doi := (index .value).doi}}
+      {{if $doi}}
+      <a href={{$myUrl}}><h2 style="color:#1e3059;">{{ .value.title }}</h2></a>
+      {{else}}
+      <a href={{$myUrl}}><h2 style="color:#227ac2;">{{ .value.title }}</h2></a>
+      {{end}}
+      <p > </p>
         {{if $doi}}
           {{ $d1 := replace $doi "." "" }}
           {{ $d2 := replace $d1 "/" "" }}
-          <p>{{ partial "abstract" (dict "value" $myAbs "doi" $d2)}}</p>
+          <p>{{ partial "abstract" (dict "value" $myAbs "doi" $d2 "title" "Abstract")}}</p>
           <p>{{ partial "badge_nl" (dict "message" "Jupyter%20Book" "link" $myUrl "target" "_blank" "logoWidth" "25" "color" "1e3059")}} {{ partial "badge" (dict "label" "GitHub" "message" "Code" "link" $urlGH "target" "_blank" "logo" "github" "logoWidth" "25" "color" "1f2428")}} {{ partial "badge" (dict "label" "MRM" "message" $doi "link" $urlPaper "target" "_blank" "logo" "PubMed" "logoWidth" "25" "color" "1e3059")}}</p>
         {{ else }}
           {{ $id := (index .value).id}}
-          <p>{{ partial "abstract" (dict "value" $myAbs "doi" $id)}}</p>
+          <p>{{ partial "abstract" (dict "value" $myAbs "doi" $id "title" "Educational Content")}}</p>
           <p>{{ partial "badge_nl" (dict "message" "Jupyter%20Book" "link" $myUrl "target" "_blank" "logoWidth" "25" "color" "1e3059")}} {{ partial "badge" (dict "label" "GitHub" "message" "Code" "link" $urlGH "target" "_blank" "logo" "github" "logoWidth" "25" "color" "1f2428")}}</p>
         {{end}}
     </div>
