@@ -1,9 +1,0 @@
-doi: 10.1002/mrm.27910
-date: "2020-03-26"
-labels:
-- Diffusion
-- Deep learning 
-- Motion correction
-image: https://notebook-factory.github.io/deep_ivim_book/images/03/deep_ivim_plotly_3_0.png
-book_html_url: https://notebook-factory.github.io/deep_ivim_book/intro
-book_github_url: https://github.com/sebbarb/deep_ivim
