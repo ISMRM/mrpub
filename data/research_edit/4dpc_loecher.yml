@@ -3,6 +3,6 @@ date: "2020-03-26"
 labels:
 - Phase unwrapping
 - Low SNR
-image: https://onlinelibrary.wiley.com/cms/asset/71190c80-5a97-47aa-a4fe-bd5f29621b39/mrm28384-fig-0007-m.png
+image: https://github.com/Notebook-Factory/PhaseUnwrapping_book/blob/master/_site/images/vol82_1.jpg?raw=true
 book_html_url: https://notebook-factory.github.io/cvxflow_book1/01Introduction/intro.html
 book_github_url: https://github.com/mloecher/cvxflow
