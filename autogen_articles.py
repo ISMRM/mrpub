@@ -39,7 +39,7 @@ for cur_yml in to_proc:
         pub['authors'] = response2['author']
         for ii in range(len(pub['authors'])):
             pub['authors'][ii]['affiliation'] = pub['authors'][ii]['affiliation'][0]['name']
-        pub['article_url'] = response2['link'][0]['URL']
+        pub['article_url'] = 'https://doi.org/' + pub['doi']
         pub['title'] = response['title']
         pub['abstract'] = response['abstract']
         with open('data/research_autogen/' + cur_yml, 'w') as outfile:

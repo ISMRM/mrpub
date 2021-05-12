@@ -2,7 +2,7 @@ abstract: "Quantitative analysis of dynamic contrast\u2010enhanced MRI (DCE\u201
   MRI) requires an arterial input function (AIF) which is difficult to measure. We\
   \ propose the reference region and input function tail (RRIFT) approach which uses\
   \ a reference tissue and the washout portion of the AIF."
-article_url: https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fmrm.27913
+article_url: https://doi.org/10.1002/mrm.27913
 authors:
 - ORCID: http://orcid.org/0000-0001-5648-0590
   affiliation: Medical Physics Unit McGill University Montreal Canada

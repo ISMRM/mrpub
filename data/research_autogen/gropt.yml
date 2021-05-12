@@ -2,7 +2,7 @@ abstract: "To introduce and demonstrate a software library for time\u2010optimal
   \ waveform optimization with a wide range of applications. The software enables\
   \ direct on\u2010the\u2010fly gradient waveform design on the scanner hardware for\
   \ multiple vendors."
-article_url: https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fmrm.28384
+article_url: https://doi.org/10.1002/mrm.28384
 authors:
 - ORCID: http://orcid.org/0000-0002-6533-1113
   affiliation: Department of Radiology Stanford University Stanford CA USA
