@@ -16,8 +16,8 @@ authors:
   family: Levesque
   given: Ives R.
   sequence: additional
-book_github_url: https://github.com/MPUmri/RRIFT
-book_html_url: https://nbviewer.jupyter.org/github/Notebook-Factory/RRFIT_notebooks/blob/main/Initial%20notebook.ipynb
+book_github_url: https://github.com/Notebook-Factory/RRIFT_page
+book_html_url: https://notebook-factory.github.io/RRIFT_page/RRIFT.html
 date: '2020-03-26'
 doi: 10.1002/mrm.27913
 image: https://gitlab.com/notZaki/rrift/-/raw/master/imgs/gbmCurves.png
