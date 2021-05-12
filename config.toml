@@ -16,7 +16,7 @@ publishDir = "public"
 
 [[menu.main]]
     name = "Submit"
-    url = "/submit/"
+    url = "https://docs.google.com/forms/d/e/1FAIpQLSf6R3ln9-xShUuvMMk_Rl8BZ79yjl4Sq2SzDw3TZcurDissLw/viewform"
     pre = "<i class='now-ui-icons arrows-1_cloud-upload-94'></i>"
     weight = 1
 
