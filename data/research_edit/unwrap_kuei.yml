@@ -4,5 +4,5 @@ labels:
 - Phase unwrapping
 - Low SNR
 image: https://github.com/Notebook-Factory/PhaseUnwrapping_book/blob/master/_site/images/vol82_1.jpg?raw=true
-book_html_url: https://notebook-factory.github.io/PhaseUnwrapping_book/intro
+book_html_url: https://zelenkastiot.github.io/Phase_book/intro.html
 book_github_url: https://github.com/mloecher/cvxflow
