@@ -17,7 +17,7 @@ publishDir = "public"
 [[menu.main]]
     name = "RRSG 2021 Competition"
     url = "/competition/"
-    pre = "<i class='now-ui-icons sport_trophy)'></i>"
+    pre = "<i class='now-ui-icons sport_trophy'></i>"
     weight = 1
 
 [[menu.main]]
