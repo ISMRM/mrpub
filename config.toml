@@ -15,6 +15,12 @@ publishDir = "public"
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
+    name = "RRSG 2021 Competition"
+    url = "/competition/"
+    pre = "<i class='now-ui-icons sport_trophy)'></i>"
+    weight = 1
+
+[[menu.main]]
     name = "Submit"
     url = "https://docs.google.com/forms/d/e/1FAIpQLSf6R3ln9-xShUuvMMk_Rl8BZ79yjl4Sq2SzDw3TZcurDissLw/viewform"
     pre = "<i class='now-ui-icons arrows-1_cloud-upload-94'></i>"
