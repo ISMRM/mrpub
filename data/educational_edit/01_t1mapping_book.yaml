@@ -10,6 +10,14 @@ authors:
   given: Agah 
   website: https://agahkarakuzu.github.io
   affiliation: NeuroPoly Lab, Ecole Polytechnique de Montreal, Montreal, Canada
+- family: Keenan
+  given: Katy
+  website: https://www.nist.gov/image-8494
+  affiliation: National Institute of Standards and Technology, MD, USA
+- family: Stikov
+  given: Nikola
+  website: https://www.polymtl.ca/expertises/en/stikov-nikola
+  affiliation: NeuroPoly Lab, Ecole Polytechnique de Montreal, Montreal, Canada
 date: "2021-03-26"
 labels:
 - T1 mapping
