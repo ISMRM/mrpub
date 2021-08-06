@@ -40,12 +40,12 @@
         {{if $doi}}
           {{ $d1 := replace $doi "." "" }}
           {{ $d2 := replace $d1 "/" "" }}
-          <p>{{ partial "abstract" (dict "value" $myAbs "doi" $d2 "title" "Abstract")}}</p>
-          <p>{{ partial "badge_nl" (dict "message" "Jupyter%20Book" "link" $myUrl "target" "_blank" "logoWidth" "25" "color" "1e3059")}} {{ partial "badge" (dict "label" "GitHub" "message" "Code" "link" $urlGH "target" "_blank" "logo" "github" "logoWidth" "25" "color" "1f2428")}} {{ partial "badge" (dict "label" "MRM" "message" $doi "link" $urlPaper "target" "_blank" "logo" "PubMed" "logoWidth" "25" "color" "1e3059")}}</p>
+          <p>{{ partial "abstract" (dict "value" $myAbs "doi" $d2 "title" "Abstract - Expand")}}</p>
+          <p>{{ partial "badge_nl" (dict "message" "Content" "link" $myUrl "target" "_blank" "logoWidth" "25" "color" "1e3059")}} {{ partial "badge" (dict "label" "GitHub" "message" "Code" "link" $urlGH "target" "_blank" "logo" "github" "logoWidth" "25" "color" "1f2428")}} {{ partial "badge" (dict "label" "MRM" "message" $doi "link" $urlPaper "target" "_blank" "logo" "PubMed" "logoWidth" "25" "color" "1e3059")}}</p>
         {{ else }}
           {{ $id := (index .value).id}}
-          <p>{{ partial "abstract" (dict "value" $myAbs "doi" $id "title" "Educational Content")}}</p>
-          <p>{{ partial "badge_nl" (dict "message" "Jupyter%20Book" "link" $myUrl "target" "_blank" "logoWidth" "25" "color" "1e3059")}} {{ partial "badge" (dict "label" "GitHub" "message" "Code" "link" $urlGH "target" "_blank" "logo" "github" "logoWidth" "25" "color" "1f2428")}}</p>
+          <p>{{ partial "abstract" (dict "value" $myAbs "doi" $id "title" "Educational Content - Expand")}}</p>
+          <p>{{ partial "badge_nl" (dict "message" "Content" "link" $myUrl "target" "_blank" "logoWidth" "25" "color" "1e3059")}} {{ partial "badge" (dict "label" "GitHub" "message" "Code" "link" $urlGH "target" "_blank" "logo" "github" "logoWidth" "25" "color" "1f2428")}}</p>
         {{end}}
     </div>
   </div>
