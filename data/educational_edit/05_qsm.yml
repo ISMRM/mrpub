@@ -1,0 +1,14 @@
+id: edu_5
+title: "QSM: Theory & Methods"
+abstract: "This educational lecture will give a broad overview of Quantitative Susceptibility Mapping. After explaining what magnetic susceptibility is and how we can measure it, I cover the data acquisition aspects, coil combination, unwrapping, masking, background field correction and dipole inversion."
+authors:
+- family: Steffen
+  given: Bollmann
+  website: www.mri.sbollmann.net
+  affiliation: The University of Queensland
+date: "2021-08-05"
+labels:
+- QSM
+image: img/edu/edu5_featured.png
+book_html_url: https://colab.research.google.com/drive/10iyYqhzF-U5NOTjIT_jqEr5mAH-aew-k?usp=sharing
+book_github_url: https://github.com/stebo85/Interactive-QSM-ISMRM-educational-talk

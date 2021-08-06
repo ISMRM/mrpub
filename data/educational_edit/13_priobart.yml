@@ -1,0 +1,27 @@
+id: edu_13
+title: "Using data-driven image priors for image reconstruction with BART"
+abstract: "Advanced reconstruction algorithms based on deep learning have recently drawn a lot of interest as they tend to outperform state-of-the-art methods. BART is a versatile framework for image reconstruction. In this work, we demonstrate how neural networks trained and tested with TensorFlow [5] can be integrated into BART. As an example, we discuss non-Cartesian parallel imaging using the SENSE model regularized by a log-likelihood image prior. The image prior is based on an autoregressive generative network pixel-cnn++. Furthermore, we validated the reconstruction pipeline using radial brain scans."
+authors:
+- family: Guanxiong
+  given: Luo
+  website: n/a
+  affiliation: Institute for Diagnostic and Interventional Radiology, University Medical Center Göttingen
+- family: Scholand
+  given: Nick
+  website: n/a
+  affiliation: Institute for Diagnostic and Interventional Radiology, University Medical Center Göttingen
+- family: Blumenthal
+  given: Moritz
+  website: n/a
+  affiliation: Institute for Diagnostic and Interventional Radiology, University Medical Center Göttingen
+- family: Holme
+  given: Christian
+  website: n/a
+  affiliation: Institute for Diagnostic and Interventional Radiology, University Medical Center Göttingen
+date: "2021-08-05"
+labels:
+- Reconstruction
+- BART
+image: img/edu/edu13_featured.png
+book_html_url: https://colab.research.google.com/github/mrirecon/bart-workshop/blob/master/ismrm2021/bart_tensorflow/bart_tf.ipynb
+book_github_url: https://github.com/mrirecon/bart-workshop/tree/master/ismrm2021

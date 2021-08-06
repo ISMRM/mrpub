@@ -1,0 +1,19 @@
+id: edu_4
+title: "Can Un-trained Networks Compete with Trained Ones for Accelerated MRI?"
+abstract: "Convolutional Neural Networks (CNNs) are highly effective tools for image reconstruction problems. Typically, CNNs are trained on large amounts of images, but, perhaps surprisingly, even without any training data, CNNs such as the Deep Image Prior and Deep Decoder achieve excellent imaging performance. Here, we build on those works by proposing an un-trained CNN for accelerated MRI along with performance-enhancing steps including enforcing data-consistency and combining multiple reconstructions"
+authors:
+- family: Darestani
+  given: Mohammad Zalbagi 
+  website: n/a
+  affiliation: Rice University
+- family: Heckel
+  given: Richard
+  website: n/a
+  affiliation: Rice University
+date: "2021-08-05"
+labels:
+- Reconstruction
+- CNN
+image: img/edu/edu4_featured.png
+book_html_url: https://colab.research.google.com/drive/1xu_NS6ClikkOM1TTPL7EDqOjQZCvCvlL#offline=true&sandboxMode=true
+book_github_url: https://github.com/MLI-lab/ConvDecoder

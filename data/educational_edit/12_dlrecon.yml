@@ -1,0 +1,19 @@
+id: edu_12
+title: "Deep learning reconstruction"
+abstract: "The repository hosts some example codes to perform MR image reconstruction with deep learning architectures. We showcase a comparison of denoising networks (denoising) and unrolled reconstruction networks (physics-based). Pure real-valued processing (real) is compared against complex-valued processing as complex-valued operations (complex) or 2-channel real-valued operations (2chreal). Respective complex-valued operations and data consistency layers are provided. A deep plug-and-play prior example is illustrated for cardiovascular MRI."
+authors:
+- family: Hammernik
+  given: Kerstin
+  website: n/a
+  affiliation: Technical University of Munich Germany
+- family: Küstner
+  given: Thomas 
+  website: n/a
+  affiliation: University Hospital of Tübingen Germany
+date: "2021-08-05"
+labels:
+- Reconstruction
+- Deep learning
+image: img/edu/edu12_featured.png
+book_html_url: https://ismrm-mit-cmr.github.io/CMR-DL-challenge
+book_github_url: https://github.com/ISMRM-MIT-CMR/CMR-DL-challenge

@@ -1,0 +1,24 @@
+id: edu_9
+title: "Deep, Deep Learning with BART"
+abstract: "Deep learning offers powerful tools for enhancing image quality and acquisition speed of MR images. Standard frameworks such as TensorFlow and PyTorch provide simple access to deep learning methods. However, they lack MRI specific operations and make reproducible research and code reuse more difficult due to fast changing APIs and complicated dependencies. 
+In this tutorial, the user learns how to train a neural network with BART on the MNIST dataset. Moreover, the BART implementations of  MoDL and the Variational Network are used for reconstruction."
+authors:
+- family: Bluementhal
+  given: Moritz
+  website: n/a
+  affiliation: University Medical Center Göttingen
+- family: Scholand
+  given: Nick
+  website: n/a
+  affiliation: University Medical Center Göttingen
+- family: Uecker
+  given: Martin
+  website: http://wwwuser.gwdg.de/~muecker1
+  affiliation: University Medical Center Göttingen and DZK
+date: "2021-08-05"
+labels:
+- Reconstruction
+- Deep learning
+image: img/edu/edu9_featured.png
+book_html_url: https://colab.research.google.com/github/mrirecon/bart-workshop/blob/master/ismrm2021/neural_networks/bart_neural_networks.ipynb
+book_github_url: https://github.com/mrirecon/bart-workshop

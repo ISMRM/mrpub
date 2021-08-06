@@ -1,0 +1,15 @@
+id: edu_8
+title: "Scientific computing with Python"
+abstract: " This interactive Jupyter Book is comprised of 3 notebooks, outlining an overarching standard operating procedure to work with 1D ( audio files of MRI pulse sequences, guitar melodies and vocal tracks), 2D (BIDS formatted reconstructed images) and 3D (multi-channel k-space data in ISMRM-RD format) data: i) obtain meta-information about the data and use community-developed readers wherever possible, ii) use NumPy to prepare the data for further processing and iii) use Scipy modules to perform fundamental signal and image processing tasks."
+authors:
+- family: Karakuzu
+  given: Agah
+  website: https://agahkarakuzu.github.io
+  affiliation: NeuroPoly Research Lab, Polyrechnique Montreal. Montreal, Canada
+date: "2021-08-05"
+labels:
+- Python
+- Scientific computing
+image: img/edu/edu8_featured.png
+book_html_url: https://agahkarakuzu.github.io/sunrise/
+book_github_url: https://github.com/agahkarakuzu/sunrise

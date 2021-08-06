@@ -1,0 +1,19 @@
+id: edu_15
+title: "FastSurfer - a fast and accurate deep-learning based neuroimaging pipeline"
+abstract: "The rapid emergence of standardized robust non-invasive imaging methods and infrastructure for big data analysis has promoted the advent of a variety of large-scale neuroimaging studies. As a central component, versatile MR imaging offers the potential to investigate in-vivo the variability, development and anatomical layout of the human brain in health and disease. Increasing our knowledge of pre-symptomatic neuroanatomical changes supports research into disease etiology, risk and preserving factors, as well as potential intervention paradigms. Consequently, there is a need for efficient, scalable, and sensitive software tools to automatically extract clinically-relevant imaging markers. Traditional neuroimage analysis pipelines, however, often involve computationally intensive, time-consuming optimization steps, and thus, do not scale well to large cohort studies."
+authors:
+- family: Henschel
+  given: Leonie
+  website: n/a
+  affiliation:  DZNE Bonn, Germany
+- family: Reuter
+  given: Martin
+  website: n/a
+  affiliation:  DZNE Bonn, Germany
+date: "2021-08-05"
+labels:
+- Deep learning
+- Segmentation
+image: img/edu/edu15_featured.png
+book_html_url: https://colab.research.google.com/github/Deep-MI/FastSurfer/blob/master/Tutorial/Tutorial_FastSurferCNN_QuickSeg.ipynb
+book_github_url: https://github.com/deep-mi/FastSurfer

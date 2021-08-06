@@ -1,0 +1,19 @@
+id: edu_10
+title: "ProMyoT1: Open-source Inversion recovery myocardial T1 mapping sequence for fast prototyping"
+abstract: "Open-source Prototype of Myocardial T1 mapping (ProMyoT1) using pyPulseq which includes an inversion recovery T1 mapping sequence with a triggering scheme."
+authors:
+- family: Gaspar
+  given: Andreia S.
+  website: https://welcome.isr.tecnico.ulisboa.pt/author/andreiagaspar/
+  affiliation: Institute for Systems and Robotics - Lisboa and Department of Bioengineering
+- family: Silva
+  given: Nuno A.
+  website: https://welcome.isr.tecnico.ulisboa.pt/author/ritanunes/
+  affiliation: Institute for Systems and Robotics - Lisboa and Department of Bioengineering, Instituto Superior Técnico
+date: "2021-08-05"
+labels:
+- T1 mapping
+- Pulse sequence
+image: img/edu/edu10_featured.png
+book_html_url: https://colab.research.google.com/github/ANG13/ProMyoT1/blob/main/PyProMyoT1_Python/pyProMyoT1.ipynb
+book_github_url: https://github.com/ANG13/ProMyoT1

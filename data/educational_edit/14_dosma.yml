@@ -1,0 +1,15 @@
+id: edu_14
+title: "Image processing with DOSMA"
+abstract: "This tutorial provides an introduction to DOSMA, a Python-based deep-learning (DL), open-source MR image analysis framework. Topics include: 1) streamlining vendor-agnostic, multi-format data I/O, 2) using and deploying DL tools, 3) parallelizing compute intensive routines (e.g. registration, curve fitting), and 4) building scalable, reproducible analysis workflows."
+authors:
+- family: Arjun
+  given: Desai
+  website: n/a
+  affiliation: Stanford University
+date: "2021-08-05"
+labels:
+- Deep learning
+- qMRI
+image: img/edu/edu14_featured.png
+book_html_url: https://colab.research.google.com/drive/1gU_qhdWnO46r0BUrQAtZ7FYlcogDDlAj?usp=sharing
+book_github_url: https://github.com/ad12/DOSMA

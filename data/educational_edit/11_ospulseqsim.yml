@@ -1,0 +1,23 @@
+id: edu_11
+title: "Open-source MRI pulse sequence simulator"
+abstract: "This notebook provides an intuitive, flexible and fully customizable MRI simulation tool for educational purposes. This version implements a spoiled GRE sequence applied to a numerical cardiac phantom with blood flow and simulates flow artefacts, as well as the effects of flow compensation. "
+authors:
+- family: Coletti
+  given: Chiara
+  website: n/a
+  affiliation: TU Delft, Delft, The Netherlands
+- family: Božić
+  given: Maša 
+  website: n/a
+  affiliation: TU Delft, Delft, The Netherlands
+- family: Weingärtner
+  given: Sebastian 
+  website: n/a
+  affiliation: TU Delft, Delft, The Netherlands
+date: "2021-08-05"
+labels:
+- Pulse sequence
+- Simulator
+image: img/edu/edu11_featured.png
+book_html_url: https://colab.research.google.com/drive/1WpaUqp_CHLk4pG7kDvYlAcgjtGNpj_FG?usp=sharing
+book_github_url: https://github.com/ISMRM-MIT-CMR/CMR-physics-challenge.git

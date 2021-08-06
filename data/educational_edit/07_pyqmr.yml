@@ -1,0 +1,27 @@
+id: edu_7
+title: "PyQMRI: An accelerated Python based Quantitative MRI toolbox"
+abstract: "To utilize full 3D information in advanced reconstruction and fitting algorithms on memory limited GPUs, special solutions strategies are necessary to leverage the speed advantage, e.g., hiding memory latency of repeated transfers to/from the GPU to host memory. This can be achieved using asynchronous execution strategies. However, correct synchronization of critical operations can be error prone. To this end, we propose PyQMRI, a simple to use Python toolbox for quantitative MRI."
+authors:
+- family: Maier
+  given: Oliver
+  website: n/a
+  affiliation: Institute of Medical Engineering, Graz University of Technology
+- family: Spann
+  given: Stefan
+  website: n/a
+  affiliation: Institute of Medical Engineering, Graz University of Technology
+- family: Bödenler
+  given: Markus
+  website: n/a
+  affiliation: Institute of Medical Engineering, Graz University of Technology  
+- family: Stollberger
+  given: Rudolf
+  website: n/a
+  affiliation: Institute of Medical Engineering, Graz University of Technology
+date: "2021-08-05"
+labels:
+- Quantitative imaging
+- Parameter mapping
+image: img/edu/edu7_featured.png
+book_html_url: https://colab.research.google.com/drive/19BfSJmDPinZDY0m1sMAhETutIiJG3b33?usp=sharing
+book_github_url: https://github.com/IMTtugraz/PyQMRI

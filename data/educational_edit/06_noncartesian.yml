@@ -1,0 +1,15 @@
+id: edu_6
+title: "Reconstruction of Non-Cartesian Data"
+abstract: " Today, most clinical scans are performed with Cartesian k-space sampling due to its robustness and ease to implement acquisition and reconstruction. However, there are numerous reasons to use non-Cartesian sampling methods, reasons that range from robustness to motion and flow, to less intrusive undersampling artifacts and more beneficial properties for advanced image reconstruction methods such as compressed sensing. This lecture covers the basics of image reconstruction with the non-uniform FFT."
+authors:
+- family: Assländer
+  given: Jakob
+  website: https://med.nyu.edu/faculty/jakob-asslaender
+  affiliation: NYU School of Medicine
+date: "2021-08-05"
+labels:
+- Non-cartesian
+- Reconstruction
+image: img/edu/edu6_featured.png
+book_html_url: https://mybinder.org/v2/gh/JakobAsslaender/2021_ISMRM_nonCartesianReconstruction_Exercises/HEAD?urlpath=pluto/open?path=/home/jovyan/src/nonCart_PlutoNotebook.jl
+book_github_url: https://github.com/JakobAsslaender/2021_ISMRM_nonCartesianReconstruction_Exercises
